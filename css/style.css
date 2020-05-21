@@ -1,0 +1,194 @@
+/* GENERAL SETTING */
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FONT SETTING */
+
+/* font adđ */
+@font-face {
+    font-family: Cabin-Bold;
+    src: url('/fonts/Cabin-Bold.ttf');
+}
+
+@font-face {
+    font-family: Cabin-BoldItalic;
+    src: url('/fonts/Cabin-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: Cabin-Italic;
+    src: url('/fonts/Cabin-Italic.ttf');
+}
+
+@font-face {
+    font-family: Cabin-Medium;
+    src: url('/fonts/Cabin-Medium.ttf');
+}
+
+@font-face {
+    font-family: Cabin-MediumItalic;
+    src: url('/fonts/Cabin-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: Cabin-Regular;
+    src: url('/fonts/Cabin-Regular.ttf');
+}
+
+@font-face {
+    font-family: Cabin-SemiBold;
+    src: url('/fonts/Cabin-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Cabin-SemiBoldItalic;
+    src: url('/fonts/Cabin-SemiBoldItalic.ttf');
+}
+
+/* font variable */
+
+:root {
+    --font-cabin-bold: Cabin-Bold;
+    --font-cabin-bolditalic: Cabin-BoldItalic;
+    --font-cabin-italic: Cabin-Italic;
+    --font-cabin-medium: Cabin-Medium;
+    --font-cabin-mediumitalic: Cabin-MediumItalic;
+    --font-cabin-regular: Cabin-Regular;
+    --font-cabin-semibold: Cabin-SemiBold;
+    --font-cabin-semibolditalic: Cabin-SemiBoldItalic;
+}
+
+
+
+
+
+/* START HEADER */
+
+header {
+    margin: 40px 0 40px 0;
+}
+/* 1. header left */
+.header_left a {
+    padding-right: 37px;
+    text-decoration: none;
+    color: #888888;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: var(--font-cabin-regular),sans-serif;
+}
+
+.header_left a:hover {
+    color: black;
+}
+
+/* 2. header center */
+.header_center p { 
+    font-size: 30px; 
+    text-transform: uppercase;
+    font-family: var(--font-cabin-bold),sans-serif;
+    margin: 0;
+}
+
+/* 3. hearder right */
+input.header_right {
+    height: 50px;
+    width: 250px;
+    border: 1px solid #888888;
+    padding: 14px 20px;
+    background: url('/images/iconsearch.png') no-repeat 92% center;
+    display: inline-block;
+}
+
+input.header_right::-webkit-input-placeholder {
+    color: #888;
+    font-size: 14px;
+    font-family: var(--font-cabin-italic),sans-serif;
+}
+/* END HEADER */
+
+
+/* START MENU */
+
+    nav ul.menu {
+        text-align: center;
+        line-height: 20px;
+    }
+
+    nav ul.menu a {
+        text-transform: capitalize;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+
+    .show-menu-btn,.hide-menu-btn{
+        transition: 0.4s;
+        font-size: 30px;
+        cursor: pointer;
+        display: none;
+      }
+
+    .show-menu-btn{
+    float: right;
+    }
+    
+    .show-menu-btn i{
+        line-height: 20px;
+    }
+
+
+
+
+
+
+
+/* END MENU */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.header_left {
+    list-style-type: none;
+    margin: 0; 
+}
+
+
+
+ul.header_left li {
+    display: inline-block;
+}
+
+ul.header_left li a {
+    display: block;
+    padding-right: 37px;
+    text-decoration: none;
+    color: #888888;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: var(--font-cabin-regular),sans-serif;
+}
+
+ul.header_left li a:hover {
+
+}
+
+
+
